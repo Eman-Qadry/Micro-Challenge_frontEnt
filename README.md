@@ -1,12 +1,106 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🧠 AI Assistant Frontend
 
-Currently, two official plugins are available:
+This is the **Frontend** of the AI Assistant project.  
+It provides a modern and responsive UI to interact with:
+- 🎙️ **Text-to-Speech** using ElevenLabs API  
+- 🤖 **AI Q&A Assistant** powered by Perplexity / OpenAI  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
+- React 19 with Vite for fast development  
+- Tailwind CSS for modern styling  
+- Text-to-Speech component with audio playback  
+- Q&A Assistant with summary + short answer  
+- Copy-to-clipboard functionality  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+- ⚛️ React 19
+- ⚡ Vite
+- 🎨 Tailwind CSS 4
+- 🔗 Axios
+
+---
+
+## 📂 Project Structure
+```
+
+frontend/
+├── public/
+├── src/
+│   ├── App.jsx
+│   ├── components/
+│   │   ├── TextToSpeech.jsx
+│   │   └── QnAAssistant.jsx
+│   ├── index.css
+│   └── main.jsx
+├── package.json
+├── tailwind.config.js
+└── postcss.config.js
+
+````
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1️⃣ Install dependencies
+```bash
+npm install
+````
+
+### 2️⃣ Tailwind Setup
+
+If using Tailwind v4, `index.css` should contain:
+
+```css
+@import "tailwindcss";
+```
+
+### 3️⃣ Run the app
+
+```bash
+npm run dev
+```
+
+Frontend will be running at:
+👉 **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 📸 Screenshots
+
+### 🟣 Text-to-Speech
+
+* Enter text → Convert → Play audio
+
+### 🟣 Q\&A Assistant
+
+* Ask any question → Get **summary** + **direct answer**
+
+---
+
+## ✨ Future Improvements
+
+* Dark mode
+* Select different voices for TTS
+* Save conversation history
+
+---
+
+## 👩‍💻 Author
+
+Developed by **Eman Qadry**
+
+* Full Stack Developer (MERN + NestJS)
+* 💼 GitHub: [eman-qadry](https://github.com/eman-qadry)
+
+```
+
+---
+
+
+```
