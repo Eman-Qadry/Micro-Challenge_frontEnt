@@ -1,10 +1,10 @@
 
-# 🧠 AI Assistant Frontend
+#  AI Assistant Frontend
 
 This is the **Frontend** of the AI Assistant project.  
 It provides a modern and responsive UI to interact with:
-- 🎙️ **Text-to-Speech** using ElevenLabs API  
-- 🤖 **AI Q&A Assistant** powered by Perplexity / OpenAI  
+-  **Text-to-Speech** using ElevenLabs API  
+-  **AI Q&A Assistant** powered by Perplexity / OpenAI  
 
 ---
 
@@ -96,7 +96,7 @@ Frontend will be running at:
 Developed by **Eman Qadry**
 
 * Full Stack Developer (MERN + NestJS)
-* 💼 GitHub: [eman-qadry](https://github.com/eman-qadry)
+* 💼 GitHub: [eman-qadry](https://github.com/Eman-Qadry)
 
 ```
 
