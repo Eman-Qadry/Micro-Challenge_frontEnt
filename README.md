@@ -8,6 +8,18 @@ It provides a modern and responsive UI to interact with:
 
 ---
 
+### Reflection
+The main challenge I faced was with the Perplexity search model, since I could not get a valid API key in time, which limited the functionality of that part.  
+
+If I had more time, I would focus on:  
+- On the UI side, I would have loved to improve the design and make it more user-friendly.  
+- For the text-to-speech feature, my idea was to let users choose between multiple available voices or even upload/record their own voice and use it for synthesis.  
+- Adding proper error handling and loading states.   
+- Writing more unit tests to ensure reliability.  
+- Improving accessibility and responsive design.
+- Add Dark mode
+- Save conversation history
+
 ## 🚀 Features
 - React 19 with Vite for fast development  
 - Tailwind CSS for modern styling  
@@ -71,7 +83,15 @@ Frontend will be running at:
 
 ---
 
-## 📸 Screenshots
+##  🌐 Live Demo
+
+🔗 Click here to try the live demo [https://micro-challenge-front-ent.vercel.app/]
+
+📌 Repositories
+
+Frontend: [https://github.com/Eman-Qadry/Micro-Challenge_frontEnt]
+
+Backend: [https://github.com/Eman-Qadry/Micro-Challenge_backend]
 
 ### 🟣 Text-to-Speech
 
@@ -82,12 +102,6 @@ Frontend will be running at:
 * Ask any question → Get **summary** + **direct answer**
 
 ---
-
-## ✨ Future Improvements
-
-* Dark mode
-* Select different voices for TTS
-* Save conversation history
 
 ---
 
